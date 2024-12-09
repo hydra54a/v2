@@ -1,0 +1,93 @@
+/* Signup Container */
+.header-container .signup-container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+
+/* Dashboard Header */
+.header-container .dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #fff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100vw;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+
+/* Logo Container */
+.header-container .logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-container .logo {
+  height: 40px;
+  margin-right: 10px;
+}
+
+/* Navigation Links */
+.header-container .nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.header-container .nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+}
+
+.header-container .nav-links a:hover {
+  color: var(--primary-orange);
+}
+
+/* Auth Buttons */
+.header-container .auth-buttons {
+  display: flex;
+  gap: 20px; 
+  align-items: center; 
+}
+
+/* Login Button */
+.btn.login {
+  padding: 5px 15px; 
+  border-radius: 5px;
+  font-family: var(--mobile-button-CTA-font-family);
+  font-size: var(--mobile-button-CTA-font-size);
+  font-weight: var(--mobile-button-CTA-font-weight);
+  line-height: 24px; 
+  color: #2B2B2B; 
+  background-color: transparent;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.btn.login:hover {
+  background-color: var(--primary-orange);
+  color: var(--basewhite);
+}
+
+/* Sign Up Button */
+.btn.signup {
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-family: var(--desktop-button-CTA-font-family);
+  font-size: var(--desktop-button-CTA-font-size);
+  font-weight: var(--desktop-button-CTA-font-weight);
+  line-height: 26px; 
+  color: #2B2B2B; 
+  background-color: var(--primary-orange);
+  box-shadow: var(--orange-button-shadow);
+  border: 2px solid transparent;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.btn.signup:hover {
+  background-color: var(--basewhite);
+  color: var(--primary-orange); 
+  border: 2px solid var(--primary-orange);
+}

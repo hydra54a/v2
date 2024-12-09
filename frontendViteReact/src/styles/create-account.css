@@ -1,0 +1,109 @@
+.account-choice-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  background-color: #f5f5f5; /* Light gray background */
+  min-height: 100vh;
+}
+
+.account-options {
+  display: flex;
+  justify-content: center;
+  gap: 22%; /* Space between the option cards */
+  margin-top: 10%;
+}
+
+.option-card {
+  width: 600px; 
+  height: auto; 
+  padding: 40px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #988f8f1d; 
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: space-between; 
+}
+
+.option-image {
+  width: 500px;
+  height: auto; 
+  object-fit: contain;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 28px; 
+  margin-bottom: 15px;
+  color: #333;
+}
+
+p {
+  font-size: 18px; 
+  color: #666; 
+  margin-bottom: 20px;
+}
+
+.option-buttons {
+  display: flex;
+  flex-direction: column; 
+  gap: 10px; 
+}
+
+.option-button {
+  width: 100%;
+  background-color: #f09c00; 
+  color: rgba(255, 255, 255, 0.707);
+  border: none;
+  padding: 16px 20px; 
+  font-size: 18px; 
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.secondary-button {
+  width: 100%;
+  background-color: transparent;
+  color: #f09c00; 
+  border: 2px solid #f09c00; 
+  padding: 14px 20px; 
+  font-size: 18px; 
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Code Input Styles */
+.code-input-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  gap: 10px; 
+}
+
+.code-input {
+  flex-grow: 2; 
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.submit-button {
+  flex-grow: 1; 
+  background-color: #4caf50; /* Green button color */
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.submit-button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}

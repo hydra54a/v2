@@ -1,0 +1,38 @@
+@import './styles/global.css';
+@import './styles/styleguide.css';
+
+/* Body Styling */
+body {
+  font-family: var(--body-p2-regular-font-family);
+  background-color: var(--neutral-100);
+  color: var(--secondary-color);
+}
+
+/* Buttons and Links */
+button {
+  font-family: var(--desktop-button-CTA-font-family);
+  font-size: var(--desktop-button-CTA-font-size);
+  line-height: var(--desktop-button-CTA-line-height);
+  font-weight: var(--desktop-button-CTA-font-weight);
+  background-color: var(--primary-orange);
+  color: var(--basewhite);
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  box-shadow: var(--orange-button-shadow);
+}
+
+button:hover {
+  background-color: #e67e22;
+}
+
+a {
+  font-family: var(--link-text-font-family);
+  font-size: var(--link-text-font-size);
+  line-height: var(--link-text-line-height);
+  color: var(--primary-color);
+}
+
+a:hover {
+  color: var(--primary-orange);
+}

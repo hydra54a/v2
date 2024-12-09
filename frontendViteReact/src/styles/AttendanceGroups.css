@@ -1,0 +1,70 @@
+.attendance-page {
+    padding: 20px;
+}
+
+.attendance-title {
+    font-size: 24px;
+    font-weight: var(--large-h1-bold-font-weight);
+    line-height: 32.68px;
+    color: #1B0B03;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 20px;
+}
+
+.attendance-container {
+    background-color: var(--basewhite);
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: var(--card-shadow);
+    width: 100%;
+}
+
+.attendance-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.attendance-table th {
+    background-color: var(--primary-orange);
+    color: var(--black);
+    padding: 16px;
+    text-align: center;
+    font-weight: 600;
+    font-size: var(--body-p2-regular-font-size);
+}
+
+.attendance-table td {
+    padding: 12px;
+    border-bottom: 1px solid var(--neutral-700);
+    text-align: center;
+}
+
+.attendance-no-data {
+    text-align: center;
+    padding: 30px;
+    color: var(--gray-50);
+}
+
+.group-link {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.group-link:hover {
+    text-decoration: underline;
+}
+
+.subgroup-pill {
+    display: inline-block;
+    background-color: #F0F0F0; 
+    color: #1B0B03; 
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin: 5px 3px; 
+    font-size: 14px; 
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500; 
+}
+

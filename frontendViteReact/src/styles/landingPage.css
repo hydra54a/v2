@@ -1,0 +1,29 @@
+.landing-page-container {
+  margin-top: 40px;
+}
+.discover-card {
+  background: #FFFFFF;
+  border-radius: 16px;
+}
+.search-section {
+  margin-top: 20px;
+}
+.filter-actions button {
+  margin-right: 10px;
+}
+.event-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 300px; 
+  width: 50px;
+}
+@media (max-width: 600px) {
+  .filter-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .filter-actions button {
+    margin-bottom: 10px;
+  }
+}

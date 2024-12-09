@@ -1,0 +1,39 @@
+/* Reset CSS  */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+/* Font Imports */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Roboto:400,600|Montserrat:600&display=swap");
+
+/* Generic Global Styles */
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;  /* Full viewport height */
+}
+
+main {
+  flex-grow: 1; 
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button:focus-visible {
+  outline: 2px solid var(--primary-color);
+}

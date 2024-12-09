@@ -1,0 +1,222 @@
+.attendance-page {
+    padding: 20px;
+}
+
+.attendance-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.attendance-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.attendance-subtitle {
+    display: flex;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24.51px;
+    color: #1B0B03;
+    font-family: "Open Sans", sans-serif;
+}
+
+.attendance-title {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 54.47px;
+    color: var(--gray-1-dark);
+    font-family: "Open Sans", sans-serif;
+    margin-top: -1px;
+}
+
+.attendance-container {
+    background-color: var(--basewhite);
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: var(--card-shadow);
+    width: 100%;
+}
+
+.attendance-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.attendance-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.attendance-group {
+    color: #1B0B03;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32.68px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.attendance-subgroup {
+    color: #3C3C3C;
+    font-size: 24px;
+    line-height: 27.24px;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+}
+
+.create-event-button {
+    background-color: var(--primary-orange);
+    color: var(--black) !important;
+    padding: 9px 24px;
+    border: none;
+    border-radius: 100px;
+    font-size: var(--desktop-button-CTA-font-size);
+    font-weight: var(--desktop-button-CTA-font-weight);
+    font-family: var(--desktop-button-CTA-font-family);
+    cursor: pointer;
+    box-shadow: var(--orange-button-shadow);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.filter-controls {
+    display: flex;
+    gap: 8px;
+    margin-top: 10px;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.search-box, .date-box {
+    display: flex;
+    align-items: center;
+    border: 1px solid #CACACB;
+    border-radius: 8px;
+    gap: 8px;
+    height: 32px;
+    padding: 4px 8px; 
+    max-width: 150px; 
+    overflow: hidden;
+}
+
+.search-box input[type="search"] {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: var(--black);
+    width: 100%;
+    padding: 0;
+}
+
+.date-box span {
+    font-size: 16px;
+    color: var(--black);
+}
+
+.hidden-date-input {
+    position: absolute;
+    opacity: 0;
+    width: 1px;
+    height: 1px;
+    pointer-events: none;
+}
+
+.attendance-table table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden; 
+}
+
+.attendance-table th {
+    background-color: #FC9A3B;
+    color: #1B0B03; 
+    padding: 16px; 
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+    vertical-align: middle; 
+}
+
+.header-checkbox {
+    width: 22px !important;
+    height: 38px !important; 
+    border-radius: 8px 0 0 0 !important; 
+    padding-top: 16px !important;
+    padding-bottom: 16px !important;
+    accent-color: #FC9A3B !important; 
+    border: 1px solid #1B0B03 !important; 
+    cursor: pointer !important; 
+    margin-left: -25px;
+}
+
+.attendance-table td {
+    padding: 12px;
+    border-bottom: 1px solid var(--neutral-700);
+    text-align: center;
+}
+
+.attendance-no-data {
+    text-align: center;
+    padding: 30px;
+    color: var(--gray-50);
+}
+
+.attendance-pagination {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px 0;
+    gap: 16px; 
+}
+
+.rows-per-page {
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    gap: 4px;
+    font-size: 14px;
+    color: #1B0B03;
+}
+
+.pagination-box {
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    gap: 8px;
+    font-size: 14px;
+}
+
+.bold-number {
+    font-weight: bold;
+}
+
+.pagination-box button {
+    background: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.pagination-box button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+.pagination-box img {
+    width: 16px;
+    height: 16px;
+}

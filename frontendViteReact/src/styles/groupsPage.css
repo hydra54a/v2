@@ -1,0 +1,92 @@
+.tabs-header {
+    display: flex;
+    background-color: #fff;
+    width: 168vh;
+    position: relative;
+    left: -3vh;
+    top: -2.5vh;
+}
+
+.tab-menu {
+    margin-left: auto;
+    padding-right: 5vh;
+}
+
+.tab-menu ul {
+    display: flex;
+    margin: 0px;
+}
+
+.tab-menu li {
+    height: 7vh;
+    width: 15vh;
+    text-align: center;
+    background-color: #ffffff;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.tab-menu li:hover {
+    background-color: #e0e0e0;
+}
+
+.tab-menu li::after {
+    content: '';
+    display: block;
+    height: 4px;
+    background-color: #FDAE62;
+    width: 0;
+    transition: width 0.3s;
+    position: absolute;
+    bottom: 0;
+}
+
+.tab-menu li:hover::after {
+    width: 100%;
+}
+
+.tab-spacing {
+    padding: 0vh 4vh 1vh;
+}
+
+.organization-header {
+    font-size: 16px;
+    margin: 20px 0 10px 0;
+    color: #8b8b8b;
+    font-weight: bold;
+}
+
+.title-header {
+    font-size: 36px;
+    margin: 0 0 20px 0;
+    color: #333;
+    font-weight: bold;
+}
+
+.details-header {
+    font-size: 24px;
+    margin: 0 0 20px 0;
+    color: #333;
+    font-weight: bold;
+}
+
+.tab-content {
+    padding: 20px;
+}
+
+.card-container {
+    display: flex;
+    gap: 16px;
+    margin-top: 20px;
+}
+
+.info-card {
+    background-color: white;
+    padding: 2.5vh;
+    margin-top: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 1.5vh !important;
+}

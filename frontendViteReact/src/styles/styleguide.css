@@ -1,0 +1,50 @@
+:root {
+  /* Colors */
+  --primary-color: #f88c00; /* Orange */
+  --secondary-color: #333; /* Dark Gray */
+  --basewhite: rgba(255, 255, 255, 1);
+  --black: rgba(27, 11, 3, 1);
+  --gray-1-dark: rgba(43, 43, 43, 1);
+  --gray-2-dark: rgba(80, 80, 80, 1);
+  --gray-50: rgba(95, 109, 126, 1);
+  --gray-500: rgba(46, 54, 70, 1);
+  --gray-6-lt: rgba(232, 232, 232, 1);
+
+  /* Font Families */
+  --body-p2-regular-font-family: "Roboto", sans-serif;
+  --desktop-button-CTA-font-family: "Open Sans", sans-serif;
+  --mobile-button-CTA-font-family: "Open Sans", sans-serif;
+  --underlined-desktop-button-CTA-font-family: "Montserrat", sans-serif;
+
+  /* Font Sizes */
+  --body-p2-regular-font-size: 16px;
+  --desktop-button-CTA-font-size: 18px;
+  --mobile-button-CTA-font-size: 16px;
+  --large-h1-bold-font-size: 48px;
+
+  /* Font Weights */
+  --body-p2-regular-font-weight: 400;
+  --desktop-button-CTA-font-weight: 600;
+  --mobile-button-CTA-font-weight: 600;
+  --large-h1-bold-font-weight: 700;
+
+  /* Line Heights */
+  --body-p2-regular-line-height: 24px;
+  --desktop-button-CTA-line-height: 26px;
+  --mobile-button-CTA-line-height: 24px;
+  --large-h1-bold-line-height: 56px;
+
+  /* Shadows */
+  --card-shadow: 0px 4px 16px 0px rgba(234, 234, 234, 0.8);
+  --orange-button-shadow: 4px 0px 16px 0px rgba(204, 101, 0, 0.29);
+  --orange-button-shadow-small: 0px 2px 4px 0px rgba(204, 101, 0, 0.29);
+
+  /* Additional Design Tokens */
+  --primary-orange: rgba(252, 154, 59, 1);
+  --neutral-100: rgba(248, 249, 251, 1);
+  --neutral-600: rgba(230, 233, 236, 1);
+  --neutral-700: rgba(209, 217, 226, 1);
+  
+  /* Borders and Radii */
+  --button-border-radius: 5px;
+}

@@ -1,0 +1,198 @@
+/* Full Page Layout */
+.login-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 0;
+  background-color: var(--neutral-100); 
+}
+
+/* Container for both the form and the image */
+.login-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--basewhite);
+  border-radius: var(--button-border-radius);
+  box-shadow: var(--card-shadow); 
+  margin-bottom: auto; 
+}
+
+/* Left Section (Form) */
+.login-left {
+  padding: 48px;
+  width: 499px; /* Exact width for the form */
+}
+
+/* Right Section (Image) */
+.login-right img {
+  width: 583px;
+  height: 828px;
+  border-radius: 0px 6px 6px 0px;
+}
+
+/* Form Heading */
+.login-left h1 {
+  font-family: var(--desktop-button-CTA-font-family);
+  font-size: var(--large-h1-bold-font-size);
+  font-weight: var(--large-h1-bold-font-weight);
+  line-height: var(--large-h1-bold-line-height);
+  margin-bottom: 32px;
+  text-align: center;
+  color: var(--black); 
+}
+
+/* Radio Buttons for User Type */
+.user-type {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+.user-type label {
+  font-size: var(--body-p2-regular-font-size);
+  font-family: var(--body-p2-regular-font-family);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--gray-1-dark); 
+}
+
+.user-type input[type="radio"] {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid var(--gray-1-dark);
+  background-color: transparent;
+  margin-right: 8px;
+  position: relative;
+}
+
+.user-type input[type="radio"]:checked {
+  background-image: url('../assets/Radio Button.png'); /* Checked state */
+  background-size: cover;
+}
+
+.user-type input[type="radio"] {
+  background-size: cover;
+}
+
+/* Input Group */
+.input-group {
+  margin-bottom: 32px;
+}
+
+.input-group label {
+  font-size: var(--body-p2-regular-font-size);
+  margin-bottom: 8px;
+  color: var(--gray-50); /* Dark gray for input labels */
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid var(--gray-500);
+  border-radius: 4px;
+  font-family: var(--body-p2-regular-font-family);
+  font-size: var(--body-p2-regular-font-size);
+  line-height: var(--body-p2-regular-line-height);
+  color: var(--gray-1-dark);
+}
+
+/* Styling for Remember Sign-In */
+.remember-signin {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 8px;
+  color: #505050; 
+  font-size: 14px;
+  font-weight: 400;
+  margin-right: auto;
+  line-height: 22px;
+}
+
+/* Target only the checkbox within the login form */
+.login-container .remember-signin input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  border: 1px solid #505050; 
+  border-radius: 4px;
+}
+
+
+/* Styling for Forgot Password */
+.forgot-password {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #365CC9;
+  text-decoration: none;
+  line-height: 24px;
+  margin-left: auto; 
+  margin-top: -50px;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+/* Styling the container for remember and forgot */
+.remember-forgot-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+/* Button Styling */
+.login-button {
+  background-color: var(--primary-orange);
+  color: var(--basewhite);
+  padding: 16px;
+  border: none;
+  width: 100%;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: var(--desktop-button-CTA-font-family);
+  font-size: var(--desktop-button-CTA-font-size);
+  font-weight: var(--desktop-button-CTA-font-weight);
+  box-shadow: var(--orange-button-shadow); 
+  margin-bottom: 16px;
+}
+
+.login-button:hover {
+  background-color: #e67e22;
+}
+
+/* Sign Up and Social Sign-In */
+.signup-prompt {
+  text-align: center;
+  margin-top: 16px;
+  font-family: var(--body-p2-regular-font-family);
+  font-size: var(--body-p2-regular-font-size);
+}
+
+.signup-prompt a {
+  color: var(--primary-orange);
+  text-decoration: none;
+}
+
+.signup-prompt a:hover {
+  text-decoration: underline;
+}
+
+.social-signin {
+  text-align: center;
+  margin-top: 32px;
+  font-family: var(--body-p2-regular-font-family);
+  font-size: var(--body-p2-regular-font-size);
+}
+
+.social-icons img {
+  width: 32px;
+  margin: 0 8px;
+}
