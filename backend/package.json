@@ -21,7 +21,7 @@
     "jsonwebtoken": "^9.0.2",
     "knex": "^3.1.0",
     "mysql": "^2.18.1",
-    "mysql2": "^3.11.3",
+    "mysql2": "^3.11.4",
     "nodemailer": "^6.9.15",
     "react-router-dom": "^6.27.0"
   },
